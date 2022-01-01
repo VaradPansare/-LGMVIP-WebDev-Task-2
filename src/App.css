@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  text-align: left;
+  background-image:url(images/Untitled.png); 
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.Navbar {
+  padding: 1%;
+  padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+  justify-content: space-between;
+}
+
+.Brand {
+  display: inline;
+  font-size: 40px;
+  background: -webkit-linear-gradient(#ffffff, #be0c0c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 0%;
+  margin-left: 10%;
+  margin-top: 30px;
+
+}
+
+button {
+  background-color: #be0c0c;
+  color: black;
+  z-index: 10;
+  margin-left: 55%;
+  top: 90%;
+  width: 15%;
+  font-size: 0.8rem;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  border-color: #330157;
+}
+
+button:hover {
+  background-color: #f18a8a;
+  border-color:  #be0c0c;
+  color: white;
+}
+
+.user-container {
+  background-color: black;
+}
